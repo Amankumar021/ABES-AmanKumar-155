@@ -46,3 +46,29 @@ body{
   background: #1e40af;
   transition: 0.6s;
 }
+
+.next{
+    position: absolute;
+    top: 90%;
+    right: 45%;
+    width: 200px;
+}
+
+.next .btn{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+}
+.next .btn:hover{
+    p{
+        display: inline-block;
+    };
+    width: 250px;
+    display: inline-block;
+    background: rgb(87, 87, 158);
+    /* transform: scale(1.1); */
+    transition: 0.3s;
+}
