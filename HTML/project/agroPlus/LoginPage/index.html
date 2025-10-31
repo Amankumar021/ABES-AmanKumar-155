@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logIn page for AgriPlus</title>
+    <link rel="stylesheet" href="./login.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo" style="height: 50px; width: 50px; background-image: url('https://t4.ftcdn.net/jpg/03/15/29/53/240_F_315295383_GZK6tuhFLL7sNatZGuo79HAt0QlApcGw.jpg'); background-size: contain; border-radius: 50%;">
+        </div>
+        <h2>AgriPlus</h2> 
+        <form action="dashboard.html" method="post">
+            <label for="Mobile-no">Mobile NO :</label>
+            <input type="tel" id="number" name="mobile-no" max="10"  required><br>
+            <div class="hidden">
+                <label for="PIN">OTP :</label>
+                <input type="password" name="number" id="OTP" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+    </div>
+</body>
+</html>

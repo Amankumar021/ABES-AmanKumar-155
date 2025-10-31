@@ -1,0 +1,101 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* Center container */
+body {
+  /* background: linear-gradient(135deg, #56ab2f, #a8e063); */
+  min-height: 100vh;
+  background-image: url("./irewolede-PvwdlXqo85k-unsplash.jpg");
+
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Signup card */
+.container-signup {
+  background-image: url("./irewolede-PvwdlXqo85k-unsplash.jpg");
+  padding: 2rem;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+/* Heading */
+.container-signup h2 {
+  margin-bottom: 1.5rem;
+  color: #2e7d32;
+}
+
+/* Form layout */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  text-align: left;
+}
+
+/* Labels */
+.signup-form label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.3rem;
+}
+
+/* Inputs & Selects */
+.signup-form input,
+.signup-form select {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: 0.3s;
+}
+
+.signup-form input:focus,
+.signup-form select:focus {
+  border-color: #56ab2f;
+  outline: none;
+  box-shadow: 0 0 5px rgba(86,171,47,0.4);
+}
+
+/* Button */
+.signup-form button {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  background: #56ab2f;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-form button:hover {
+  background: #3e8e41;
+}
+
+/* Bottom text */
+.login-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.login-text a {
+  color: #2e7d32;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+}

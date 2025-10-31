@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-image: url("./irewolede-PvwdlXqo85k-unsplash.jpg");
+    
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 15em;
+    height: 15em;
+    width: 400px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    background-color: rgb(62, 95, 62);
+}
+
+.login-container h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1rem;
+}
+
+.login-container input{
+    width: 15rem;
+    padding: 4px;
+}
+.login-container form{
+    margin-top: 2rem;
+    height: 6rem;
+}
+
+button{
+    margin-top: 2rem;
+    padding: 5px;
+    width: 8em;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+
+
+.login-container p{
+    color: aquamarine;
+    margin-top: 0.5rem;
+}
+
+.login-container .hidden{
+    display: none;
+
+}
+
+
+/* signUp */
+
+.conatiner-signup{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 15em;
+    height: 40em;
+    width: 40em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    background-color: rgb(62, 95, 62);
+}
+

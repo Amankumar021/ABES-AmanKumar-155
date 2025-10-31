@@ -1,0 +1,12 @@
+Begin : 
+        P = GetNode()
+        p->info=item
+        p->Next=NULL
+        Q=dStart
+        if dStart!=NULL
+            Q=Q->Next
+        Q->Next=P
+        P->Prev =Q
+
+    else
+        
