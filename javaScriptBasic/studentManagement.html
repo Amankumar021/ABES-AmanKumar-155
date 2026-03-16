@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Student Management System </h2>
+    <input type="text" placeholder="student Name" id="StdName">
+    <input type="email" placeholder="student email" id="StdEmail">
+    <input type="number" placeholder="student age" id="StdAge">
+
+
+    <button onclick="addStudent()">Add Student</button>
+    <h2>Student List </h2>
+
+    <script>
+
+        let student = [];
+
+        //set
+        let emailSet = new Set();
+
+        //map
+        let gradeMap = new map();
+
+        function addStudent(){
+            try {
+
+                //debugging ke liye!
+
+                const name = document.getElementById("stdName").value;
+                const email = document.getElementById("stdEmail").value;
+                const marks = document.getElementById("stdAge").value;
+
+
+                // REGEX valida
+                
+            } catch (error) {
+                
+            }
+        }
+    </script>
+
+</body>
+</html>
